@@ -8,7 +8,9 @@
     "url": "git://github.com/supershabam/multipart-form-stream.git"
   },
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "mime": "~1.2.7"
+  },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
