@@ -1,0 +1,17 @@
+{
+  "author": "Ian Hansen <ian@supershabam.com> (http://supershabam.com)",
+  "name": "multipart-form-stream",
+  "description": "transform files and fields into a multipart/form-data encoded stream",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/supershabam/multipart-form-stream.git"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
