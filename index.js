@@ -1,1 +1,1 @@
-module.exports = require('./lib/multipart-form-stream');
+module.exports = require('./lib/form-stream');

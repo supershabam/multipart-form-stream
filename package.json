@@ -1,19 +1,29 @@
 {
-  "author": "Ian Hansen <ian@supershabam.com> (http://supershabam.com)",
-  "name": "multipart-form-stream",
-  "description": "transform files and fields into a multipart/form-data encoded stream",
-  "version": "0.0.0",
+  "author": "Ian Hansen",
+  "name": "form-stream",
+  "description": "Easily stream multipart/form-data to efficiently submit forms and file uploads",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/supershabam/multipart-form-stream.git"
   },
   "main": "index.js",
   "dependencies": {
-    "mime": "~1.2.7"
+    "mime": "~1.2.7",
+    "request": "~2.11.4",
+    "ready": "~0.1.0",
+    "pipette": "~0.9.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "~1.6.0",
+    "should": "~1.2.0",
+    "express": "~3.0.0"
+  },
   "optionalDependencies": {},
   "engines": {
-    "node": "*"
+    "node": ">=0.8.*"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
   }
 }
