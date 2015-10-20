@@ -1,19 +1,22 @@
 {
-  "author": "Ian Hansen <ian@supershabam.com> (http://supershabam.com)",
   "name": "multipart-form-stream",
+  "version": "1.0.0",
   "description": "transform files and fields into a multipart/form-data encoded stream",
-  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/supershabam/multipart-form-stream.git"
+    "url": "https://github.com/supershabam/multipart-form-stream"
   },
-  "main": "index.js",
+  "author": "Ian Hansen <ian@supershabam.com> (http://supershabam.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/supershabam/multipart-form-stream/issues"
+  },
+  "homepage": "https://github.com/supershabam/multipart-form-stream",
   "dependencies": {
     "mime": "~1.2.7"
-  },
-  "devDependencies": {},
-  "optionalDependencies": {},
-  "engines": {
-    "node": "*"
   }
 }
