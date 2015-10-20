@@ -3,8 +3,6 @@ multipart-form-stream
 
 transform files and parameters into a multipart/form-data encoded stream
 
-[![endorse](http://api.coderwall.com/supershabam/endorsecount.png)](http://coderwall.com/supershabam)
-
 ## Example
 ```javascript
 var MultipartStream = require('multipart-form-stream')
